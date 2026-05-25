@@ -1,0 +1,36 @@
+# Coding Rules for this Nuxt 4 Project
+
+## General Rules
+- Use `<script setup lang="ts">` for all components and pages
+- Never use `any` in TypeScript - define proper interfaces/types
+- Follow strict TypeScript mode (noImplicitAny, strictNullChecks)
+
+## Naming Conventions
+- Components: PascalCase (e.g., AppHeader.vue, AppTable.vue)
+- Pages: kebab-case (e.g., user-profile.vue)
+- Composables: camelCase starting with `use` (e.g., useUsers.ts)
+- Variables/Functions: camelCase
+
+## Nuxt Auto-imports
+- Do NOT manually import: ref, computed, useFetch, useAsyncData, definePageMeta, $fetch, defineEventHandler, readBody, createError
+- These are auto-imported by Nuxt
+
+## Fetching Data
+- Use `useFetch` or `useAsyncData` for data fetching
+- Do NOT use axios or manual fetch
+- Use `<NuxtLink>` instead of `<a>` for internal navigation
+
+## Server API
+- Use `defineEventHandler` for API route handlers
+- Import prisma from `~/server/lib/prisma`
+- Always validate input data
+- Return proper HTTP status codes
+
+## Styling
+- Use Tailwind CSS utility classes
+- Follow mobile-first responsive design
+
+## Database
+- Use Prisma ORM for all database operations
+- Always handle errors gracefully
+- Validate data before database operations
