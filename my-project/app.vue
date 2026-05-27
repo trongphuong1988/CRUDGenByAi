@@ -3,6 +3,7 @@
 
 <template>
   <NuxtLayout>
+    add text : tôi là Phương
     <NuxtPage />
   </NuxtLayout>
 </template>
