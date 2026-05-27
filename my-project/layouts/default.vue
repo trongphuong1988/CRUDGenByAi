@@ -7,6 +7,7 @@
     <div class="flex flex-1">
       <AppNavbar />
       <main class="flex-1 p-6">
+        fgsdagdfgdfgdgfgd
         <slot />
       </main>
     </div>
