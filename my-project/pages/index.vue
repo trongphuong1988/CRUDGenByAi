@@ -113,7 +113,7 @@ const orderCount = computed(() => orders.value?.length || 0)
       </h2>
       <p class="text-gray-600">
         This is a user, product, and order management system built with Nuxt 4,
-        TypeScript, Tailwind CSS, and Prisma ORM.
+        TypeScript, Tailwind CSS, and Prisma ORM. Updateeeeeeeeeeeeeeeeee
       </p>
     </div>
   </div>
