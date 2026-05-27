@@ -109,7 +109,7 @@ const orderCount = computed(() => orders.value?.length || 0)
 
     <div class="bg-white rounded-lg shadow p-6">
       <h2 class="text-xl font-semibold mb-4 text-gray-800">
-        Welcome to CRUDGenByAi
+        Welcome to CRUDGenByAi test pull request
       </h2>
       <p class="text-gray-600">
         This is a user, product, and order management system built with Nuxt 4,
